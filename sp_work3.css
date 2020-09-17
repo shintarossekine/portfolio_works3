@@ -12,7 +12,9 @@ body {
     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 }
 
-
+.wrap {
+        overflow: hidden;
+    }
 
 img {
     border: none;
