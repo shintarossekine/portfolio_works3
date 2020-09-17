@@ -1,0 +1,408 @@
+@charset "utf-8";
+@media screen and (max-width:767px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+
+
+img {
+    border: none;
+    display: block;
+}
+
+    #pcheader {
+        display: none;
+    }    
+    
+  /*hg*/
+.menu {
+    width: 45px;
+height: 33px;
+position: fixed;
+z-index: 99;
+top: 16px;
+right: 15px;
+    
+}
+
+
+.menu__line {
+    background-color: #111;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu__line--center {
+    top: 15px;
+}
+
+.menu__line--bottom {
+    bottom: 0;
+}
+
+.menu__line--top.active {
+    top: 9px;
+    transform: rotate(45deg);
+}
+.menu__line--center.active {
+    transform:scaleX(0);
+}
+.menu__line--bottom.active {
+    transform: rotate(135deg);
+    bottom: 22px;
+}
+
+#headerNavi {
+    
+    background: #fff;
+    display: none;
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    z-index: 98; 
+    right: 0;
+}
+
+.gnav__inner {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.gnavi__menu--item {
+    margin: 45px 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: block;
+    
+}
+
+
+.gnavi__menu--item a {
+    color: #555;
+    font-size: 1.6em;
+    text-decoration: none;
+    transition: .5s;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+    
+}
+
+.gnavi__menu--item a:hover {
+    background-color: #EDEDED;
+    
+}
+
+
+.gnav__menu {
+    width: 100%;
+}
+#mainphoto {
+    background-image: url("common/kaigan_refrect.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    
+}
+
+#mainphoto_contents {
+   width: 70%;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 80px 0;
+    
+    
+    
+    }     
+    
+    
+    
+#mainphoto h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 0.25px #000;
+    }
+
+    
+    #maincontents img {
+        width: 100%;
+        height: auto;
+    }    
+    
+#maincontents {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+    
+}
+
+#maincontents_top {
+    padding-bottom: 40px;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    }
+    
+ 
+  
+#maincontents h2 {
+    color: #333;    
+    }      
+    
+    
+.breadcrumbs {
+        display: flex;
+        padding: 10px 0 60px 0;
+        float: right; 
+        
+    }
+    
+ .breadcrumbs li {
+        
+        
+    }
+    
+    .breadcrumbs a {
+     text-decoration: none;
+     color: #333;
+     font-weight: bold;
+     font-size: 15px;   
+        
+    }
+    
+    .underline a:hover {
+      color: #3A82D8;    
+    }
+    
+    
+    
+    .underline {
+     text-decoration: underline;
+        
+    }
+    
+    .next_retarn {
+      
+      clear: both;
+      width: 85%;
+      margin-right: auto;
+      margin-left: auto;
+      color: #444;
+        
+    }
+    
+    .next_retarn p {
+     float: left; 
+     font-weight: bold;
+     font-size: 20px;
+     color: #444; 
+    }
+    
+    .next_retarn a {
+       color: #444; 
+       text-decoration: none;
+       
+    }
+    
+    .next_retarn a:hover {
+     color: #3A82D8;
+    }
+    
+    .next_retarn a span:hover {
+     color: #444;
+    }
+    
+    .next_retarn .nextbutton {
+        float: right;
+    }
+        
+    
+    
+    
+    
+    
+    
+    .visual {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        
+    }
+    
+    .swiper-button-next {
+        color: #555;
+        width: 26px;
+        height: 26px;
+        background-size: 28px;
+        overflow: hidden;
+    }
+   
+    
+    .swiper-button-prev {
+        color: #555;
+        width: 26px;
+        height: 26px;
+        background-size: 28px;
+        overflow: hidden;
+    }
+
+  .swiper-container {
+        padding-bottom: 42px;
+    }
+
+#textright {
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 88%;
+    
+    
+    
+    
+}
+
+#textright span {
+    
+}
+
+ /*修正*/
+.itiretu {
+    padding-bottom: 20px;
+}
+
+.itiretu_fin {
+    padding-bottom: 0;
+    padding-top: 20px;
+}    
+    
+ .itiretu_span {
+        display: block;
+    }  
+    
+.blue_title {
+    background-color: #007db3;
+    color: whitesmoke;
+    padding: 2px;
+    
+    display: block;
+    width: 38%;
+    text-align: center;
+    font-size: 15px;
+        
+    }
+
+    #textright p a {
+        font-size: 14px;
+        color: #222;
+        float: right;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #textright p a:hover {
+        color: #0f49ef;
+    }
+    
+    
+    .kankyo {
+       display: block;
+    }
+    
+    .kankyo span {
+        
+    }
+    
+    .fat {
+        font-weight: bold;
+    }
+    
+
+    #pagelink1 {
+    text-decoration: none;
+    padding-top: 10px;  
+    
+    display: block;
+    line-height: 14px;
+    color: #3c3c3c;
+   
+    
+    }
+    
+    #pagelink1::after {
+     border-bottom: solid 1px #222;
+     bottom: 0;
+     content: "";
+     display: block;
+     transition: all .3s ease;
+     -webkit-transition: all .3s ease;
+     width: 0;
+    }
+    
+    
+    
+    
+    
+    
+  
+
+
+
+
+footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+    background-color: #4c97e5;
+    height: 80px;
+    
+}
+
+
+#footerInner {
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+    
+}
+
+
+
+#footerInner p {
+    
+    text-align: center;
+    padding-top: 39px;
+    color: #fff;
+    font-size: 14px;
+    
+    
+    
+}
+}

@@ -1,0 +1,420 @@
+@charset "utf-8";
+@media screen and (min-width: 768px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+
+
+img {
+    border: none;
+    display: block;
+}
+
+
+header {
+    width: 100%;
+}
+
+  #headerInner {
+        display: none;
+    }   
+
+/*hg*/
+.menu {
+    width: 71px;
+    height: 33px;
+    position: fixed;
+    z-index: 99;
+    top: 30px;
+    right: 127px;
+    display: none;
+}
+
+
+.menu__line {
+    background-color: #111;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu__line--center {
+    top: 15px;
+}
+
+.menu__line--bottom {
+    bottom: 0;
+}
+
+.menu__line--top.active {
+    top: 9px;
+    transform: rotate(45deg);
+}
+.menu__line--center.active {
+    transform:scaleX(0);
+}
+.menu__line--bottom.active {
+    transform: rotate(135deg);
+    bottom: 22px;
+}
+
+/*gnavi*/
+
+ #headerNavi1 {
+    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    padding: 50px 0 0px 0;
+    
+    
+    
+}   
+    
+
+.gnav__inner {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gnavi__menu--item {
+    float: left;
+    padding: 0 30px 0 0;
+}
+
+
+.gnavi__menu--item a {
+    color: #222;
+    font-size: 1.8em;
+    text-decoration: none;
+    
+    
+    
+}
+
+.gnavi__menu--item:nth-child(4) {
+        padding: 0;
+    }   
+    
+.gnavi__menu--item a:hover {
+    
+    border-top: 5px solid;
+}
+
+    
+    #spMenu {
+        display: none;
+    }
+    
+#mainphoto {
+    background-image: url("common/kaigan_refrect.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    
+}
+
+#mainphoto_contents {
+       width: 22%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 0;
+    
+    
+    
+    } 
+    
+    
+    
+#mainphoto h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    text-shadow: 2px 2px 0.25px #000;
+    }
+    
+    
+#mainphoto figure {
+    width: 249px;
+    margin-right: auto;
+    margin-left: auto;
+        
+        
+    }   
+    #breadcrumbsmain {
+        
+        
+    }
+    .breadcrumbs {
+        display: flex;
+        padding: 10px 0 60px 0;
+        float: right; 
+        
+    }
+    
+    .breadcrumbs li {
+        
+        
+    }
+    
+    .breadcrumbs a {
+     text-decoration: none;
+     color: #333;
+     font-weight: bold;
+     font-size: 15px;   
+        
+    }
+    
+    .underline a:hover {
+      color: #3A82D8;    
+    }
+    
+    
+    
+    .underline {
+     text-decoration: underline;
+        
+    }
+    
+    .next_retarn {
+      
+      clear: both;
+      width: 85%;
+      margin-right: auto;
+      margin-left: auto;
+      color: #444;
+        
+    }
+    
+    .next_retarn p {
+     float: left; 
+     font-weight: bold;
+     font-size: 22px;
+     color: #444; 
+    }
+    
+    .next_retarn a {
+       color: #444; 
+       text-decoration: none;
+       
+    }
+    
+    .next_retarn a:hover {
+     color: #3A82D8;
+    }
+    
+    .next_retarn a span:hover {
+     color: #444;
+    }
+    
+    .next_retarn .nextbutton {
+        float: right;
+    }
+    
+    .next_retarn span {
+        
+    }
+
+#maincontents {
+   
+    display: block;
+    margin: 100px 0 100px 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1028px;
+    overflow: hidden;
+}
+
+#maincontents_top {
+    padding-bottom: 40px;
+    color: #333;
+    }
+    
+    
+    
+#maincontents h2 {
+        
+    }  
+    
+#maincontents h2 span {
+       
+    }
+    
+    
+#mcInner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+}
+
+
+#maincontents {
+     
+}
+
+    .visual {
+        width: 500px;
+        float: left;
+        
+        
+    }
+   
+    .swiper-container {
+        padding-bottom: 48px;
+    }
+    
+    
+   
+    .swiper-button-next {
+        color: #555;
+    }
+   
+    
+    .swiper-button-prev {
+        color: #555;
+    }
+    
+   
+
+#textright {
+    font-size: 14px;
+    padding-left: 68px;
+    overflow: hidden;
+    
+}
+
+#textright span {
+    
+}
+
+/*修正*/
+.itiretu {
+    padding-bottom: 20px;
+}
+
+.itiretu_fin {
+    padding-bottom: 0;
+    padding-top: 20px;
+}    
+    
+
+    .itiretu_span {
+        display: block;
+    }    
+    
+.blue_title {
+    background-color: #007db3;
+    color: whitesmoke;
+    padding: 2px;
+    
+    display: block;
+    width: 28%;
+    text-align: center;
+    font-size: 15px;
+        
+    }
+
+    #textright p a {
+        font-size: 14px;
+        color: #222;
+        float: right;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #textright p a:hover {
+        color: #0f49ef;
+    }
+    
+    .kankyo {
+       display: block;
+    }
+    
+    .kankyo span {
+        
+    }
+    
+    .fat {
+        font-weight: bold;
+    }
+    #pagelink1 {
+    text-decoration: none;
+    width: 85%;    
+    text-align: center;
+    display: block;
+    line-height: 14px;
+    color: #3c3c3c;
+    padding-top: 10px;
+    
+       
+    
+    }
+    
+    #pagelink1::after {
+     border-bottom: solid 1px #222;
+     bottom: 0;
+     content: "";
+     display: block;
+     transition: all .3s ease;
+     -webkit-transition: all .3s ease;
+     width: 0;
+    }
+    
+    
+    
+    
+    
+    
+    #pagelink1:hover::after {
+        width: 100%;
+        
+    }
+
+footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    background-color: #4c97e5;
+    height: 100px;
+}
+
+#footerInner {
+    width: 401px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+#footerInner p {
+   text-align: center;
+   padding-top: 48px;
+   color: #fff; 
+    
+}
+
+
+
+
+
+}
+
