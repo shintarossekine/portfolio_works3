@@ -321,14 +321,11 @@ right: 15px;
     #textright p a {
         font-size: 14px;
         color: #222;
-        float: right;
         text-decoration: none;
         padding-top: 5px;
     }
 
-    #textright p a:hover {
-        color: #0f49ef;
-    }
+ 
     
     
     .kankyo {
@@ -346,7 +343,7 @@ right: 15px;
 
     #pagelink1 {
     text-decoration: none;
-    padding-top: 10px;  
+    
     
     display: block;
     line-height: 14px;
@@ -355,17 +352,12 @@ right: 15px;
     
     }
     
-    #pagelink1::after {
-     border-bottom: solid 1px #222;
-     bottom: 0;
-     content: "";
-     display: block;
-     transition: all .3s ease;
-     -webkit-transition: all .3s ease;
-     width: 0;
-    }
+  
     
-    
+      #pagelink1:hover {
+         color: #0f49ef;
+        
+        }
     
     
     
