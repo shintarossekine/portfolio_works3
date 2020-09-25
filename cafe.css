@@ -405,7 +405,9 @@ footer {
     
 }
 
-
+ .br_sp {
+        display: none;
+    }
 
 
 
