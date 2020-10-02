@@ -63,7 +63,7 @@ right: 32px;
 }
 .menu__line--bottom.active {
     transform: rotate(135deg);
-    bottom: 22px;
+    bottom: 13px;
 }
 
 #headerNavi {
