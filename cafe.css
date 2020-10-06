@@ -120,7 +120,7 @@ header {
     }
     
 #mainphoto {
-    background-image: url("common/images/kaigan_refrect.png");
+    background-image: url("common/kaigan_refrect.png");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
